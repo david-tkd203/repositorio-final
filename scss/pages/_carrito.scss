@@ -1,0 +1,20 @@
+.info-producto{
+    display: flex;
+    width: 80vw;
+    gap: 5vw;
+    img{
+        width: 25vw;
+        border-radius: 10px;
+    }
+    &__detalles{
+        display: flex;
+        flex-flow: column nowrap;
+        gap: 1.3rem;
+        .titulo-producto{
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+    }
+
+}
+
